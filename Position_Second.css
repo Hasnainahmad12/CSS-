@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: rgb(232, 210, 210);
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img img {
+    height: 400px;
+    width: 500px;
+    border: 2px solid red;
+}
+
+.text {
+    width: 400px;
+}
+
+.text p {
+    font-size: 30px;
+}
+
+.btn {
+    color: red;
+    background: black;
+    height: 75px;
+    width: 370px;
+    font-size: 20px;
+}
+
+.chatfixed {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    background: green;
+    padding: 30px;
+     border-radius: 50%;
+
+}
+
+.chatsticky {
+    position: sticky;
+    background: lightcoral;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 40px;
+    top: 0;
+
+}
+
+@media(max-width: 800px) {
+    .img img {
+        height: 350px;
+        width: 400px;
+        border: 2px solid blue;
+    }
+    
+.text p {
+    font-size: 20px;
+    color: red;
+}
+
+
+.btn {
+    color: whitesmoke;
+    background: red;
+    height: 40px;
+    width: 370px;
+    font-size: 20px;
+}
+
+}
+
+@media(max-width: 500px) {
+    .img img {
+        height: 300px;
+        width: 300px;
+        border: 2px solid yellow;
+    }
+
+    .text p {
+        font-size: 10px;
+        color: blue;
+    }
+
+.btn {
+        color: yellow;
+        background: green;
+        height: 30px;
+        width: 170px;
+        font-size: 20px;
+    }
+    
+}
+

@@ -1,0 +1,21 @@
+.main {
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+}
+
+.main button {
+    /* padding: 10px 30px; */
+    height: 50px;
+    width: 120px;
+
+}
+
+.main button:hover {
+    /*1=x 2=y 3=blur 4=spreadness*/
+    box-shadow: 0px 0px 30px 3px cyan;
+    border: 2px solid red;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}

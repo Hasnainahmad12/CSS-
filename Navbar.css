@@ -1,0 +1,44 @@
+body {
+    background: rgb(128, 128, 246);
+}
+nav {
+ display: flex;
+ justify-content: space-between;
+ padding: 0px 20px;
+ /* background: red;    */
+}
+
+.nav__logo p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 20px; */
+}
+
+.nav__items ul {
+    display: flex;
+    gap: 20px;
+    /* line-height: 20px; */
+
+}
+.nav__items ul li {
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav__btn button {
+    height: 40px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+}
+
+.nav__btn button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
